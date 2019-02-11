@@ -1,0 +1,63 @@
+<template name="blog">
+
+  <div class="w3-content w3-justify w3-text-white w3-padding-64" id="blog">
+
+    <h2>Daniel's Blog</h2>
+    <h5 style="color: grey;">See what others are saying. Sign in below to join the discussion yourself.</h5>
+    <hr style="width:200px" class="w3-opacity">
+    {{> loginButtons}}
+    <br>
+    {{#if currentUser}}
+      <button id="newEntry">New Entry</button>
+    {{/if}}
+    {{#if isAdmin}}
+      <button id="deleteAll">Delete All</button>
+    {{/if}}
+  <br>
+      <aside>
+        <h4>Recent Entries ({{blogCount}}):</h4>
+        <ul style="background-color: black;">
+          {{#each blog}}
+            <li style="color: grey;">
+              <h4 style="color:white; ">{{title}}
+                <h4 style="display: inline; font-size: 12px;">
+
+                  {{#if isOwner}}
+                    <button id="delete"> &times;</button>
+                  {{/if}}
+
+                </h4>
+              </h4>
+              <p style=" color: grey; padding: 0px; margins: 0px;"> from {{username}} on {{createdOn}}</p>
+              <hr style="width:150px" class="w3-opacity">{{content}} <br>
+            </li>
+          {{/each}}
+        </ul>
+        <br> <br>
+      </aside>
+  </div>
+</template>
+
+<template name="addBlog">
+  <br>
+  <div class="w3-content w3-justify w3-text-white w3-padding-64" id="blog" style="float:middle">
+    <h2>New Blog Entry</h2>
+    <h5 style="color: grey;">Please, remember to be respectful and constructive.</h5>
+
+    <hr style="width:200px" class="w3-opacity">
+    <form>
+      <input type="text" name="title" placeholder="Title here" style="width:30%" />
+      <br>
+      <textarea name="content" rows="10" cols="30" placeholder="Content goes here"></textarea>
+      <br>
+      <input type="submit" value="Add Entry" />
+    </form>
+  </div>
+</template>
+<!--
+<template name="blogItem">
+  {{#if isSelected}}
+  <p>{{content}}</p>
+  <p>Added on: {{createdOn}}</p>
+  {{/if}}
+</template> -->
