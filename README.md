@@ -1,10 +1,11 @@
-# Edward Sa's Personal Website Template
+# Daniel Park: panieldark.github.io
+Cadet at the United States Military Academy, West Point.
 
-Feel free to download this template and change it to fit your information! There's a link below for a tutorial on how to use this template.
+Pursuing B.S, Computer Science
 
-## Links
+## Info
 
- Feel free to contact me or check out my content!
+Please feel free to get in contact!
 
-* [LinkedIn](https://www.linkedin.com/in/edwardbsa/)
-* [YouTube](https://www.youtube.com/user/IngeniousEdits)
+* [LinkedIn](www.linkedin.com/in/park-daniel-c)
+* [GitHub](https://github.com/panieldark/)
