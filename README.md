@@ -7,5 +7,5 @@ Pursuing B.S, Computer Science
 
 Please feel free to get in contact!
 
-* [LinkedIn](www.linkedin.com/in/park-daniel-c)
+* www.linkedin.com/in/park-daniel-c
 * [GitHub](https://github.com/panieldark/)
