@@ -287,10 +287,14 @@ h5 {
 }
 
 .promo-block {
-  padding: 220px 0 130px
+  padding: 315px 0 130px
 }
 
 .promo-block .promo-block-title {
+  /* font-family: 'Open Sans';
+  letter-spacing: 15px;
+  font-weight: 50; */
+  font-weight: 600;
   font-size: 70px;
   color: #fff;
   line-height: 1
@@ -299,18 +303,19 @@ h5 {
 @media (max-width:480px) {
   .promo-block .promo-block-title {
     font-size: 50px
+    padding: 0;
   }
 }
 
 .promo-block .promo-block-text {
-  font-size: 25px;
-  color: #fff
+  font-size: 22px;
+  color: #fff;
 }
 
 .promo-block .promo-block-divider {
   border-bottom: 1px solid rgba(255, 255, 255, .4);
-  padding-bottom: 20px;
-  margin-bottom: 35px
+  padding-bottom: 5px;
+  margin-bottom: 15px
 }
 
 .service {
@@ -916,6 +921,7 @@ h5 {
 .container-full-width, .container-sm {
   margin-right: auto;
   margin-left: auto
+  padding:0;
 }
 
 .row-space-2>[class*=col-] {
@@ -956,8 +962,8 @@ h5 {
 }
 
 .content-lg {
-  padding-top: 100px;
-  padding-bottom: 100px
+  padding-top: 50px;
+  padding-bottom: 50px
 }
 
 .full-width {
