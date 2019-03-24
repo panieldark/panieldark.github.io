@@ -1,6 +1,5 @@
 h6 {
   font-size: 17px;
-  color:
 }
 h4 {
   color: #696969;
@@ -102,7 +101,7 @@ h1, h2, h3, h5 {
   margin: 0 0 15px
 }
 
-h1>a, h2>a, h3>a, h4>a, h5>a, h6>a {
+h1>a, h2>a, h3>a,h5>a, h6>a {
   color: #515769
 }
 
@@ -120,7 +119,7 @@ h2 {
 }
 
 h3 {
-  font-size: 25px
+  font-size: 26px
 }
 h4 {
   font-size: 22px
