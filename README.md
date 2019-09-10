@@ -10,4 +10,4 @@ Pursuing B.S, Computer Science
 Please feel free to get in contact!
 * danielpark1140@gmail.com
 * www.linkedin.com/in/park-daniel-c
-* panieldark.github.io
+* http://panieldark.github.io
